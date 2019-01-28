@@ -32,7 +32,7 @@ def char():
     elif gender == "3":
         gender_choice = "Other"
 
-    print("Generating stats...(Press any key to continue")
+    input("Generating stats...(Press any key to continue)")
 
     strength = random.randint(4, 10)
     intel = random.randint(4, 10)
@@ -42,4 +42,11 @@ def char():
     print("\nClass Type: ", type_choice)
     print("Gender: ", gender_choice)
     print("Strength: ", strength, "Intelligence: ", intel, "Agility: ", agility)
+
+    accept = input('Accept character? (Y/N)')
+
+    if accept == "Y" or accept == "y":
+        print("Good luck in your adventure!")
+    elif accept == "N" or accept == "n":
+        print("Character Cancelled")
 
