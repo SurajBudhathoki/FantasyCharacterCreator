@@ -32,7 +32,13 @@ def generate():
     print("Gender: ", gender2)
     print("Strength: ", strength, "Intelligence: ", intel, "Agility: ", agility)
 
+    accept = input('Accept character? (Y/N)')
 
+    # option to accept created character
+    if accept == "Y" or accept == "y":
+        print("Good luck in your adventure!")
+    elif accept == "N" or accept == "n":
+        print("Character Cancelled")
 
 
 
