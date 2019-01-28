@@ -28,7 +28,7 @@ def generate():
     # Print the character information
     name = (n1 + n2 + n3 + n4 + n5 + n6)
     print("\n", name)
-    print("\nType: ", type2)
+    print("\nClass Type: ", type2)
     print("Gender: ", gender2)
     print("Strength: ", strength, "Intelligence: ", intel, "Agility: ", agility)
 
