@@ -1,4 +1,5 @@
 # help option form the menu
+import menu
 
 
 def help_choice():
@@ -9,3 +10,6 @@ def help_choice():
 
     print('Character Criteria\n\n Character name \n Character gender \n Character class type \n Character stats')
     print('     Strength    Agility     Intelligence\n')
+
+    input('Press Enter to go back to menu ')
+    menu.menu()

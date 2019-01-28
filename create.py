@@ -34,7 +34,7 @@ def char():
     elif gender == "3":
         gender_choice = "Other"
 
-    input("Generating stats...(Press any key to continue)")
+    input("Generating stats...(Press Enter to continue)")
 
     # generating random stats
     strength = random.randint(4, 10)
