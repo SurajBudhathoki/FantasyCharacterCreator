@@ -26,7 +26,7 @@ def char():
 
     gender = input("Choose character gender :\n  1- Male 2 - Female 3 - Other \n")
 
-    # choice for choofdfdkhksing a gender
+    # choice for choosing a gender
     if gender == "1":
         gender_choice = "Male"
     elif gender == "2":
